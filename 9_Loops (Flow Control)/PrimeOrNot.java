@@ -8,6 +8,8 @@ public class PrimeOrNot {
             System.out.println("It is a prime");
         } else {
             Boolean isPrime = true;
+
+            // loop from 2 to √n → check divisibility
             for(int i = 2; i <= Math.sqrt(n); i++){
                 if(n % i == 0){
                     isPrime = false;
@@ -22,3 +24,8 @@ public class PrimeOrNot {
     }
 }
 
+// 🔑 Short Logic Explanation (for revision):
+
+// 👉 Prime means divisible only by 1 and itself.
+// 👉 So, check divisibility from 2 to √n.
+// 👉 If divisible → not prime, else prime. ✅
