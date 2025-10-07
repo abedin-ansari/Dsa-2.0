@@ -1,4 +1,4 @@
-public class Program_1 {
+public class Program1 {
 
     public static void test(){
         System.out.println("This is a test method");
