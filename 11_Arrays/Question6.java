@@ -1,3 +1,5 @@
+// Question: What is the output of this program that calculates the sum of all elements in an array?
+
 public class Question6 {
     public static void main(String[] args) {
         int[] nums = {10, 21, 31, 41, 50, 60, 70};
