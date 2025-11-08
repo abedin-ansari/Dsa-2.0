@@ -23,8 +23,8 @@ class Service{
 			else if(e.salary<small.salary)
 				small=e;
 		}
-		System.out.println("Max Salary Employ Details: "+big);
-		System.out.println("Min Salary Employ Details: "+small);
+		System.out.println("max Salary Employ Details: "+big);
+		System.out.println("min Salary Employ Details: "+small);
 
 	}
 }
