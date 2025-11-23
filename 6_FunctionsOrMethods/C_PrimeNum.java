@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class C_PrimeNum {
     public static boolean isPrime(int n) {
         if (n <= 1)
@@ -11,7 +13,9 @@ public class C_PrimeNum {
     }
 
     public static void main(String[] args) {
-        int n = 11;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter a number to check if it is prime: ");
+        int n = sc.nextInt();
         System.out.println(isPrime(n));
     }
 }
